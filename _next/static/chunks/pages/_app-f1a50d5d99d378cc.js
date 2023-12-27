@@ -74,7 +74,7 @@ function App(param) {
 function loadCOIServiceWorker() {
     if ( true && window.location.hostname != "localhost") {
         const coi = window.document.createElement("script");
-        coi.setAttribute("src", "/TicTacToe/coi-serviceworker.min.js"); // update if your repo name changes for npm run deploy to work successfully
+        coi.setAttribute("src", "/tictactoe-unity/coi-serviceworker.min.js"); // update if your repo name changes for npm run deploy to work successfully
         window.document.head.appendChild(coi);
     }
 }
